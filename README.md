@@ -43,7 +43,7 @@ Create and manage quizzes; includes a UI to build quizzes and view them.
 ### 1) Create `.env` in `backend/`
 Створіть файл `backend/.env` з таким вмістом:
 ```env
-DATABASE_URL="postgresql://postgres:5dr6ft7guhi9i@95.216.205.200:5432/postgres"
+DATABASE_URL="postgresql://postgres:5dr6ft7guhi9i@host/postgres"
 PORT=4000
 FRONTEND_URL=http://localhost:3000
 ```
